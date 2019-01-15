@@ -1,0 +1,50 @@
+alt+F2		atidaro komandos langa	
+
+ctrl+alt+T	atidaro terminala (ne tiesiogiai, o per emuliatoriu)
+
+ctrl+alt+F3	atidaro terminala (tiwsiogiai, juodaslangas, ivesti logina ir passworda)
+
+crtl+L		isvalyti terminalo langa
+
+sudo passwd	ivesti superadministratoriaus passworda, patvirtinti, # rodo kad jau pilna prieiga/atsakomybe
+
+ctrl+D		issiloginti
+
+ctrl+alt+F1	grizti i login ekrana
+
+su		prisijungiam kaip super (priekyje yra root)
+
+hostname	parodo kompiutero varda
+
+env		parodo aplinka (kazkur per viduri pasaryta kad shell naudoja bash(arba kuri kita))
+
+ls		sarasas
+ls -l		sarasas su informacija apie tipus (viso yra septyni tipai)
+ls -l /dev/	sarasas su informacija apie tipus kiekvieno device
+ls -li		inodai (dydis baitais)
+ls -lih		inodai (dydis kilobaitais)
+ls -lah		?
+ls -l /		katalogu sarasas
+ls ..		persoka viena kataloga i virsu
+ls ../..	persoka du katalogus i virsu
+pwd		parodo esama kataloga
+ls .		esamas katalogas
+man ls		manual pagalba
+man man		pagalba pagalbai :)
+man -k ls	parodo viska kur tik naudojama "ls"
+man -k passwd	parodo viska kur tik naudojama "passwd"
+apropos passwd	tas pats kaip ir man -k
+ls -li > info		suraso i faila info
+ls -li | grep		perduoda komanda kitai komandai ?
+ls -a			parodo pasleptus failus
+ls -la Desktop/		parodo pasleptus failus ir kur jie talpinami ?
+file 			parodo failo tipa ?
+stat Desktop/
+cd -			grizta i ankstsni kataloga (ir taip galima sokineti)
+?parent			ieskoti pagalboje zodzio "parent" (klaustukui reikia nuspausti Shift)
+rm			remove, istrinti faila (netinka kalogui)
+rm -r			istrinti ir failus ir kataloga
+cp			kopijuoti faila
+cp file* test		nukopijuoti bet kokius failus "file" i kataloga "test"
+cp -ir test/ test2	i - interaktyvus kopijavimas (dar atsiklausia)
+mv file1 file		move

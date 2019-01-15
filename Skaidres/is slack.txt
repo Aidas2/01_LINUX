@@ -1,0 +1,27 @@
+Del to kad komanda mv gali tik po viena faila pervadinti, tai galite naudoti komanda mmv. Jei jos nerasite pagal nutylejima galite idiegti: sudo apt install mmv 
+komandos formatas mmv from to (pvz.: mmv "f*.txt" "file#1.txt") 
+
+o koks butu geriausias metodas surasti visus procesus priklausancius grupei? nes ps -aux grupiu neraso kiek matau
+Aš bandyciau tokia komanda, jei root grupes ieskom - ps -u root
+aha tai cia pagal useri, bet jau radau gal pagal grupe tiesiog ps -g
+systemctl list-units
+ps -u yourusername
+Man regis ps yra apie procesus. Atrodo, kad tarnyboms reikete komandos systemctl Kad issaugoti i faila komandos gale reikia parasyti >tarnybos.txt
+systemctl list-units > tarnybos.txt
+O tiktu systemctl status? Ar reikia list-units?
+systemctl list-units --type service 
+arba systemctl list-units --type service --all 
+gal pirmas labiau tinka, nes rodo tik aktyvius, --all rodo ir neaktyvius.
+
+Jei norite pažiureti kokio nors vartotojo procesus galite parašyti ps -fu root (edited)
+taip pat galite pažiureti procesu medi priklausanti konkreciam vartotojui: ps -fHu root
+jei norite irašyti i faila: ps -fHu root > procesai.txt
+
+sudo add-apt-repository ppa:leaeasy/dde
+sudo apt-get update
+sudo apt-get install dde
+
+sudo apt update
+sudo apt upgrade
+sudo apt install dde
+sudo init 6 //restartuos sistem?

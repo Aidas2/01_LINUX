@@ -1,0 +1,870 @@
+ls
+pwed
+pwd
+птщьу
+gnome-calculator 
+LS
+ls
+sudo passwd 
+exit
+ping 8.8.8.8
+sh
+su -
+w
+ls /root/
+systemctl status sshd
+su
+whoami
+pwd
+ls
+ls -l
+ls -l /dev/
+find -type p /
+find / -type p 
+find / -type p 2>/dev/null
+ls -l /run/systemd/initctl/fifo
+find / -type s 2>/dev/null
+ls -l /run/udev/control 
+ls -li
+ls -lih
+ls -l /
+uptime
+ls /usr/local/man/
+ls -la
+ls /home/vaclav/Desktop/
+ls Desktop/
+ls ..
+ls ../..
+pwd
+ls ../../etc/grub.d/
+ls /etc/grub.d/
+ls ../etc/grub.d/
+cd ..
+ls
+ls 
+ls .
+ls ..
+ls .
+pwd
+ls ..
+ls .
+dir
+man ls
+ls --help
+man dir
+man man
+man ls
+man -k ls
+man -k passw
+man 5 passwdf
+man 5 passwd
+apropos passwd
+info
+ls /usr/share/doc/
+cd
+pwd
+man pwd
+ls
+ls -l
+ls -lh
+ls -lah
+ls -lahi
+ls -i
+ls -li
+ls -li > info
+ls
+less info 
+ls -li | grep Desk*
+ls -li | grep D*
+ls 
+ls -a
+firefox
+ls -la
+ls -la Desktop/
+file Desktop/mini 
+file Desktop/untitled.txt 
+file Desktop/untitled
+man file
+file Desktop/
+file ls
+which ls
+which man
+file /usr/bin/man
+ls
+stat
+stat Desktop/
+man stat
+pwd
+ls
+cd Desktop/
+cd
+history
+ls -la
+less .bash_history
+cd
+cd ~
+cd Desktop/
+pwd
+cd -
+man cd
+cd --help
+stat ../Desktop/
+pwd
+touch file1
+ls
+man touch 
+stat ../Desktop/
+mkdir test
+ls -la
+mkdir blala/home
+mkdir -p blala/home
+ls
+ls blala/
+ls -lt blala/
+man mkdir
+ls 
+rmdir blala/
+rm blala/
+rm -r blala/
+ls
+man rm
+ls
+cp file1 file2
+ls
+ls test
+cp file* test/
+ls test/
+cp test/ test2
+cp -r test/ test2
+ls
+cp -r test/ test2
+cp -ir test/ test2
+ls
+mv file1 file
+ls -la
+ls -lia
+mv file file1
+ls -lia
+ls /
+ls -l /
+passwd vaclav
+passwd root
+cd bandymas/
+ls
+logout
+man stat
+stat .config/
+ls
+ls .config/
+ls -d .config/
+ls -dlsi .config/
+stat .config/
+ls
+mkdir bandymas
+cd bandymas/
+ls -la
+pwd
+ls
+cd /
+pwd
+cd -
+stat .
+stat ../bandymas/
+stat .
+touch file[0..100]
+ls
+rm file\[0..100\] 
+touch file{0..100}
+ls
+man ls
+ls --sort
+ls -s
+sort .
+ls -la
+rm file*
+ls
+ls -la
+pwd
+who
+stat .
+sudo mkdir trest
+ls
+cd trest/
+touch file{0..100}
+sudo rmdir ../trest/
+ls
+ls -la
+stat .
+cd ..
+ls
+ls -la
+ls -la /
+cd /
+pwd
+cd ../../
+pwd
+cd -
+cd
+cd Desktop/ | mkdir bandymas | cd bandymas
+cd Desktop/
+ls
+cd ..
+ls
+rm bandymas/
+rm -R bandymas/
+cd Desktop/ | mkdir bandymas | cd bandymas
+ls
+cd bandymas/
+ls
+touch file{1..9}
+ls
+mkdir dir{0..3}
+ls
+cp file[1-5] dir0
+ls dir0
+cp file[1-5] dir[2,5]
+ls dir5
+ls dir4
+ls
+ls dir2
+ls
+cp file[1-5] dir[1,3]
+ls
+ls dir1
+ls
+mv file[4-7] dir1
+ls 
+ls dir1
+ls -l
+mv dir1 dir0
+ls
+man ln
+ls
+mv dir3 dir4
+ls
+ls -i
+mv dir4 dir3
+ls -i
+man ln
+ls
+ln -s file1 nuoroda1
+ls
+ls -l
+ls -li
+ln file1 nuoroda2
+ls -li
+rm file1
+ls -li
+ls -li /
+ls -li
+touch file1
+ls -li
+rm nuoroda
+rm nuoroda2
+ln file1 nuoroda2
+ls -il
+vi file1
+less file1
+less nuoroda2
+ln -s file1 ../Desktop/nuoroda2
+ls -l
+less file1
+ls -l
+ln -s file1 nuoroda1
+ln -is file1 nuoroda1
+rm
+rm file1
+ls -l
+ls dir0
+ls
+cp /etc/group grupes
+ls
+more grupes 
+less grupes 
+cat grupes 
+cat grupes | less
+man cat
+cp /etc/fstab diskas
+ls
+cat diskas grupes > miksas
+ls
+less miksas 
+cat -n miksas 
+cat -n miksas | grep "^20"
+cat -n miksas | grep ^20
+cat -n miksas | grep root
+cat -n miksas | grep 20
+cat -n miksas | grep ^20
+cat -n miksas | grep 20
+tac grupes 
+cat grupes 
+man head
+head grupes 
+head grupes | cat -n
+head grupes | cat -n | tac
+head grupes 
+head -n 5 grupes 
+tail -n 5 grupes 
+wc 
+wc grupes 
+cat -n grupes 
+head -n 15
+head -n 15 grupes 
+head -n 15 grupes | head -n 5
+head -n 15 grupes | tail -n 5
+head -n 15 grupes | tail -n 6
+head -n 15 grupes | tail -n 6 | cat -n
+head -n 15 grupes | tail -n 6 | cat -n | uniq proxy
+head -n 15 grupes | tail -n 6 | cat -n | uniq
+locate
+ls -la
+locate diskas
+sudo updatedb
+locate diskas
+man find
+find /home/vaclav/ -name diskas
+ls -li
+find /home/vaclav/ -inode 2228399
+man find
+find /home/vaclav/ -inum 2228399
+find /home/vaclav/ -inum 222839*
+find /home/vaclav/ -name D*
+find /home/vaclav/ -ctime 1 *
+man find
+find /home/vaclav/ -ctime 10 *
+find /home/vaclav/ -ctime 10 
+ 
+find diskas
+cd ..
+find diskas
+find / diskas 2>/dev/null
+find / -name diskas 2>/dev/null
+ls
+whereis ls
+which ls
+file Desktop/
+file .bashrc 
+file .bashrc ]
+file .bashrc
+file /bin/ls
+whatis ls
+whatis file
+whatis mc
+whatis uname
+uname -a 
+man grep
+cd bandymas/
+grep diskas 
+cat diskas | grep root
+cat grupes | grep root
+less grupes 
+man wc
+wc -w grupes 
+cat -n grupes 
+wc -c grupes 
+wc -b grupes 
+wc grupes 
+sort grupes 
+sort -r grupes 
+df -h
+du -h .
+man du
+ls
+du -h miksas
+env
+name=vaclav
+labas $name
+echo labas $name
+export $name
+env | grep name
+env
+export $name
+env | grep name
+reset
+echo $name
+export name
+env
+env | grep name
+unset name
+env | grep name
+cd ..
+ls -la .config/
+less .config/user-dirs.locale 
+echo $name
+name=vaclav
+echo $name
+export name
+env | grep name
+env
+unset name
+env | grep name
+echo $name
+echo "I'm bad!"
+echo "I'm bad!" > bandymas/slamstas
+cd bandymas/
+less slamstas 
+reset
+logout
+asjadsjfsa
+asdfsdf
+clear
+a;lksdfas
+date
+cal
+cal 2018
+cal 1989
+ca 1900
+less /etc/group
+ls -la
+less /etc/passwd
+less /etc/shadow
+sudo less /etc/shadow
+ls
+ls -l
+chmod g+rw miksas 
+ls -l
+chmod o-r miksas 
+ls -l
+chmod o+rwx miksas 
+ls -l
+ls -la
+man chown 
+chown root miksas 
+sudo chown root miksas 
+ls -l
+sudo chgrp root miksas 
+ls -l
+sudo chmod o-rwx
+sudo chmod o-rwx mik
+sudo chmod o-rwx miksas 
+ls -l
+id
+ls -la
+stat miksas 
+ls /tmp
+stat /tmp/
+sudo useradd -m -g 
+sudo useradd -m /home/madagaskaras -g users -G audio,lp,disk -s /bin/bash pingvinas
+sudo useradd -m madagaskaras -g users -G audio,lp,disk -s /bin/bash pingvinas
+sudo useradd -m -d /home/madagaskaras -g users -G audio,lp,disk -s /bin/bash pingvinas
+ls /home/
+less /etc/passwd
+sudo less /etc/shadow
+man useradd
+sudo passwd pingvinas 
+sudo less /etc/shadow
+sudo passwd pingvinas 
+w
+sudo gpasswd -a sudo pingvinas
+sudo gpasswd -a pingvinas sudo
+man userdel
+ps
+man ps
+ps aux
+pstree
+pstree | bash
+pstree | gnome-sheel
+pstree | gnome-shell
+ps | gnome-shell
+ps | term*
+ps | bash
+ps
+pstree -p
+kill -l
+ps
+ps aux vaclav
+ps aux
+ps aux | firefox
+ps aux | grep firefox
+kill -l
+kill 15 3536
+sudo kill 15 3536
+sudo kill 15 3635
+ps aux | grep firefox
+sudo kill 9 3635
+sudo kill 9 3981
+systemctl --list-units
+systemctl list-units
+sudo systemctl stop nertwok
+sudo systemctl stop network
+sudo systemctl stop NetworkManager
+sudo systemctl start NetworkManager
+systemctl status NetworkManager
+systemctl start rescue.target
+init 3
+sudo userdel pingvinas 
+less /etc/passwd
+less /etc/passwd | grep pingvinas
+ls /home/
+sudo rm -r /home/madagaskaras
+ls /home/
+man chfn
+chfn vaclav 
+groups
+id vaclav 
+who
+w
+vi
+nano
+cd bandymas/
+ls
+nano miksas 
+nano grupes 
+ee
+man dd 
+dd if=/dev/zero of=/home/vaclav/bandymas/nulis bs=1M count=1024 status=progress 
+ls -lh
+rar
+man tar
+tar -cfv nulis.tar /home/vaclav/bandymas/nulis 
+tar -cfv nulis.tar nulis 
+man tar
+tar -cfv nulis nulis.tar 
+ls
+tar -cfv /home/vaclav/bandymas/nulis.tar nulis 
+man tar
+tar -cfv /home/vaclav/bandymas/nulis.tar /home/vaclav/bandymas/
+tar -cvf /home/vaclav/bandymas/nulis.tar /home/vaclav/bandymas/nulis 
+tar -czf /home/vaclav/bandymas/nulis.tar /home/vaclav/bandymas/nulis 
+tar -czvf nulis.tar nulis
+ls
+ls -l
+ls -lh
+man zip
+zip nulis
+zip nulis.zip nulis
+ls -lh
+gzip nulis
+ls -lh
+gunzip nulis.gz 
+bzip nulis
+bzip2 nulis
+ls -lh
+sudo apt-get install rar
+rar
+rar a nulis.rar nulis
+ls
+gunzip nulis.bz2
+bzip2 -e  nulis.bz2
+bunzip2 nulis.bz2 
+rar a nulis.rar nulis
+ls -lh
+bzip2 nulis
+ls -lh
+sudo systemctl start runlevellev5
+sudo systemctl start runlevel5
+sudo systemctl start runlevel5.target
+sudo systemctl poweroff
+cd bandymas/
+ls
+touch file{0..1000}
+ls
+mv file[0-50] kazkas[0-50]
+mv file[0-50] kazkas{0..50}
+man -k rename
+man mv
+top
+ping 8.8.8.8
+jobs
+find / -name disk
+jobs
+top
+fg 1
+jobs
+bg 1
+fg 1
+firefox
+jobs
+fg 3
+ps
+ps aux
+ps aux | grep root
+ps aux | grep 1476
+pstree -p
+pstree -p | grep 1476
+man systemctl
+systemctl list-units
+sudo systemctl disable NetworkManager
+shutdown -r now
+systemctl status NetworkManager
+history
+nano firstscript
+ls
+file firstscript 
+nano firstscript
+./firstscript
+ls -l
+file firstscript 
+/bin/bash firstscript 
+chmod u+x firstscript 
+ls -l
+./firstscript 
+name=pingvinas
+echo $name
+echo labas $name
+echo "labas $name"
+echo 'labas $name'
+sudo apt-cache search java | grep oracle
+sudo apt install elink
+java -version
+logout
+sudo
+cd ~/Desktop
+ls
+exit
+ls
+cdf Desktop/
+cd Desktop/
+mkdir Hello world
+mkdir WTF?
+mkdir KAS VYKSTA
+sudo
+sudo su
+mkdir PADEKI AS GIRTAS
+ls
+man dpkg
+find /home/vaclav/ -name skype*
+cd Desktop/
+cd ../Downloads/
+ls -la
+dpkg -i skypeforlinux-64.deb 
+sudo dpkg -i skypeforlinux-64.deb 
+man dpkg
+dpkg -l firefox
+dpkg -l skype
+sudo dpkg -r firefox
+sudo dpkg -i firefox
+dpkg -l firefox
+man -k apt
+man 8 apt
+sudo apt-get update
+sudo apt update
+apt list --upgradable
+sudo apt upgrade
+sudo apt --fix-broken install
+sudo apt remove skypeforlinux 
+file /bin/cp
+ls /li
+b
+ls /lib
+ls /lib64
+cd /etc/apt
+ls -l
+less sources.list
+ping http://lt.archive.ubuntu.com
+ping lt.archive.ubuntu.com
+less sources.list
+ls -l
+ls sources.list.d/
+less sources.list.d/skype-stable.list 
+sudo apt update 
+sudo apt-get update 
+sudo apt update 
+sudo apt upgrade 
+man apt
+man apt-get
+sudo apt -y upgrade
+sudo apt-cache search sl
+sudo apt-cache search ^sl
+sudo apt-cache search ^sl | grep sl
+sudo apt-cache search ^sl | grep $sl
+sudo apt-cache search ^sl | grep sl$
+sudo apt-cache search ^sl\
+sudo apt-cache search ^sl
+sudo apt install sl
+sl
+sudo apt install cowsay
+cowsay 
+sudo apt install figlet
+figlet
+alsamixer
+sudo apt install firefox
+java -version
+sudo apt-cache search java
+sudo apt-cache search java | grep oracle
+sudo add-apt-repository ppa:webupd8team/java
+ls -l
+ls sources.list.d
+sudo apt-cache search java | grep oracle
+sudo add-apt-repository ppa:linuxuprising/java
+sudo apt-cache search java | grep oracle
+sudo apt install oracle-java10-installer
+java -version
+cd 
+cd Downloads/
+ls -la
+rm skypeforlinux-64.deb 
+ls -l
+java -version
+pwd
+ls -l
+file leafpad-0.8.18.tar.gz 
+gunzip leafpad-0.8.18.tar.gz 
+ls -l
+file leafpad-0.8.18.tar 
+tar -xf leafpad-0.8.18.tar 
+ls -l
+cd leafpad-0.8.18/
+pwd
+ls -l
+less README 
+pwd
+./configure 
+sudo apt-cache search gcc
+sudo apt install gcc-x86-64
+sudo apt install gcc
+./configure 
+sudo apt-cache search intltool
+sudo apt install intltool
+cd ..
+ls
+rm -r leafpad-0.8.18
+ls -la
+gzip leafpad-0.8.18.tar 
+ls -la
+ls -l
+file leafpad-0.8.18.tar.gz 
+gunzip leafpad-0.8.18.tar.gz 
+ls
+file leafpad-0.8.18.tar 
+tar -xf leafpad-0.8.18.tar 
+ls
+rm leafpad-0.8.18.tar 
+ls 
+cd leafpad-0.8.18/
+ls -l
+less README 
+sudo apt-cache search gcc
+sudo apt install gdc-8-multilib
+sudo apt-cache search intltool
+sudo apt install intltool
+./configure 
+sudo apt-cache search pkg-config
+sudo apt install pkg-config
+./configure 
+sudo apt-cache search gtk+-2.0
+sudo apt install gtk+-2.0
+./configure 
+sudo apt-get install gtk2.0
+./configure 
+make
+ls -l
+less README 
+sudo make install-strip 
+leafpad
+sudo apt update 
+dpkg --help
+dpkg --info leafpad
+dpkg leafpad
+dpkg -l leafpad
+dpkg -r leafpad
+sudo dpkg -r leafpad
+less README 
+ls -l
+sudo apt install leafpad
+dpkg -l leafpad
+whereis leafpad
+file /usr/bin/leafpad
+file /usr/local/bin/leafpad
+leafpad
+which leafpad
+/usr/bin/leafpad
+sudo rm /usr/bin/leafpad
+sudo apt remove leafapd
+sudo apt remove leafpad
+find / -name *leafpad*
+find / -name *leafpad* 2>/dev/null
+cd
+sudo apt install apache2
+systemctl status apache2
+sudo service apache2 stop
+systemctl status apache2 
+ip address
+hostname
+systemctl status apache2 
+systemctl -l status apache2 
+less /var/log/apache2/error.log 
+cd bandymas/
+nano index.html
+firefox index.html 
+ls -l
+nano index.html
+ls /var/www/
+ls /var/www/html/
+less /var/www/html/index.html 
+sudo nano /etc/apache2/apache2.conf 
+sudo systemctl restart apache2
+sudo nano /etc/apache2/apache2.conf 
+sudo systemctl restart apache2
+systemctl status apache2
+cd /etc/apache2/
+ls -la
+cd conf-available/
+ls -la
+cd ..
+cd sites-available/
+ls -la
+less 000-default.conf 
+cd ..
+ls -l
+less ports.conf 
+less sites-available/000-default.conf 
+cd 
+cd bandymas/
+ls -la
+sudo mkdir /var/www/naujasvetaine
+ls /var/www/
+ls index.html 
+sudo cp index.html /var/www/naujasvetaine/
+ls /var/www/naujasvetaine/
+cd /etc/apache2/
+ls -la
+less ports.conf 
+cd -
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/naujasvetaine.conf
+ls /etc/apache2/sites-available/
+less /etc/apache2/sites-available/naujasvetaine.conf 
+sudo nano /etc/apache2/sites-available/naujasvetaine.conf 
+sl
+sudo nano /etc/apache2/sites-available/naujasvetaine.conf 
+cd /etc/apache2/
+ls 
+ls -l
+ls sites-enabled/
+sudo a2ensite naujasvetaine.conf 
+sudo a2dissite 000-default.conf 
+ls sites-enabled/
+systemctl status apache2
+sudo systemctl stop apache2
+sudo nano /etc/apache2/apache2.conf 
+sudo nano /etc/hosts
+sudo service apache2 start
+systemctl status apache2
+sudo apt install openssh
+sudo apt install openssh-server 
+systemctl status sshd
+ip address
+systemctl status sshd
+ip address
+ping 192.168.3.96
+ip address
+ssh 192.168.3.97
+w
+who
+w
+cd 
+cd Desktop
+ls -la
+file cpu-z_1.84-en.exe 
+sudo apt-cache search xfce4
+sudo apt install xfce4
+dpkg -l xfce4
+systectl list-units | grep xorg
+systemctl list-units | grep xorg
+systemctl list-units | grep X11
+systemctl list-units | grep server
+systemctl list-units
+ls /etc/init/
+ls /etc/init.d
+reboot
+top
